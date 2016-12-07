@@ -43,7 +43,7 @@ public class Control : MonoBehaviour {
     }
 
     int calc_pos(int player) // Verifie l'absence de jeton dans le tableau puis en ajoute un si possible ou retourne le jeton actuelle
-    {
+	{
         int j;
         int i;
 
@@ -237,7 +237,8 @@ public class Control : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (my_rig == null) my_rig = GetComponent<Rigidbody2D>();
+        if (my_rig == null)
+			my_rig = GetComponent<Rigidbody2D>();
         position = Camera.main.ScreenToWorldPoint(new Vector2(Input.mousePosition.x, Input.mousePosition.y));
         position.x = recalc(position.x);
         position.y = recalc(position.y);
