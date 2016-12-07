@@ -2,13 +2,15 @@
 using System.Collections;
 
 public class Control : MonoBehaviour {
-    public GameObject my_pion; // Contient le pion
+    public GameObject my_pionblack; // Contient le pion noir
+    public GameObject my_pionwhite; // Contient le pion blanc
     public float case_size = 0.40f; // Taille d'une case
 
     private Rigidbody2D my_rig; // Notre RigidBody
     private Vector2 position; // Position temporaire
 
     private int[,] tab = new int[19, 19];
+    private int player = 1;
     private int p_x;
     private int p_y;
     
@@ -243,10 +245,17 @@ public class Control : MonoBehaviour {
         position.x = recalc(position.x);
         position.y = recalc(position.y);
         my_rig.position = position;
-        if (Input.GetMouseButtonDown(0) && calc_pos(1) == 0) // En cas de clic gauche
+        if (Input.GetMouseButtonDown(0) && player == 1 && calc_pos(1) == 0) // En cas de clic gauche
         {
-            Instantiate(my_pion, my_rig.position, new Quaternion()); // Creation d'un pion
+            Instantiate(my_pionblack, my_rig.position, new Quaternion()); // Creation d'un pion
             verif_win();
+            player = 2;
+        }
+        if (Input.GetMouseButtonDown(0) && player == 2 && calc_pos(1) == 0) // En cas de clic gauche
+        {
+            Instantiate(my_pionwhite, my_rig.position, new Quaternion()); // Creation d'un pion
+            verif_win();
+            player = 1;
         }
     }
 }
