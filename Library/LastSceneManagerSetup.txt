@@ -1,4 +1,1 @@
-sceneSetups:
-- path: Assets/Gomoku.unity
-  isLoaded: 1
-  isActive: 1
+sceneSetups: []
