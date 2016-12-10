@@ -19,8 +19,5 @@ public class resultat : MonoBehaviour
         {
             SceneManager.LoadScene("Menu");
         });
-
-        if (Control.player == 1)
-
     }
 }
