@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2015
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku2D", "Gomoku2D.csproj", "{4EDCC6A9-FFF5-7983-A66B-7C590B998D1A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku2D.CSharp", "Gomoku2D.CSharp.csproj", "{EE75E6B2-6E44-88C9-6007-82B0556BB5C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku2D.Editor", "Gomoku2D.Editor.csproj", "{A7C46735-23C4-3ABA-3F0B-D0989A3040C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gomoku2D.CSharp.Editor", "Gomoku2D.CSharp.Editor.csproj", "{3A410C8C-1246-76E1-A22A-2F8F375143CE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,14 +11,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{4EDCC6A9-FFF5-7983-A66B-7C590B998D1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{4EDCC6A9-FFF5-7983-A66B-7C590B998D1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{4EDCC6A9-FFF5-7983-A66B-7C590B998D1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{4EDCC6A9-FFF5-7983-A66B-7C590B998D1A}.Release|Any CPU.Build.0 = Release|Any CPU
-		{A7C46735-23C4-3ABA-3F0B-D0989A3040C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{A7C46735-23C4-3ABA-3F0B-D0989A3040C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{A7C46735-23C4-3ABA-3F0B-D0989A3040C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7C46735-23C4-3ABA-3F0B-D0989A3040C9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EE75E6B2-6E44-88C9-6007-82B0556BB5C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE75E6B2-6E44-88C9-6007-82B0556BB5C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE75E6B2-6E44-88C9-6007-82B0556BB5C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE75E6B2-6E44-88C9-6007-82B0556BB5C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A410C8C-1246-76E1-A22A-2F8F375143CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A410C8C-1246-76E1-A22A-2F8F375143CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A410C8C-1246-76E1-A22A-2F8F375143CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A410C8C-1246-76E1-A22A-2F8F375143CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
