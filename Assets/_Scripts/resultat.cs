@@ -23,15 +23,5 @@ public class resultat : MonoBehaviour
         {
             SceneManager.LoadScene("Gomoku");
         });
-        /*
-        ReplayButton.onClick.AddListener(() =>
-        {
-            SceneManager.LoadScene("Gomoku");
-        });
-        ExitButton.onClick.AddListener(() =>
-        {
-            SceneManager.LoadScene("Menu");
-        });
-        */
     }
 }
