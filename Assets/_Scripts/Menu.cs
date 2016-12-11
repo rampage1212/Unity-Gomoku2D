@@ -15,7 +15,6 @@ public class Menu : MonoBehaviour
         StartButton.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("Gomoku");
-            //Application.LoadLevel("Gomoku");
         });
         ExitButton.onClick.AddListener(() =>
         {
