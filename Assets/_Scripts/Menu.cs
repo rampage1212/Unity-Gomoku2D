@@ -16,6 +16,10 @@ public class Menu : MonoBehaviour
         {
             SceneManager.LoadScene("Gomoku");
         });
+        Startia.onClick.AddListener(() =>
+        {
+            SceneManager.LoadScene("GomokuIA");
+        });
         ExitButton.onClick.AddListener(() =>
         {
             Application.Quit();
