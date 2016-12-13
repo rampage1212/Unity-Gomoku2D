@@ -120,9 +120,12 @@
     <Compile Include="Assets\Assets\Backup\Standard Assets\Utility\WaypointCircuit.cs" />
     <Compile Include="Assets\Assets\Backup\Standard Assets\Utility\WaypointProgressTracker.cs" />
     <Compile Include="Assets\_Scripts\Control.cs" />
+    <Compile Include="Assets\_Scripts\ControlIA.cs" />
     <Compile Include="Assets\_Scripts\Menu.cs" />
     <Compile Include="Assets\_Scripts\menurules.cs" />
+    <Compile Include="Assets\_Scripts\menurulesIA.cs" />
     <Compile Include="Assets\_Scripts\resultat.cs" />
+    <Compile Include="Assets\_Scripts\resultatIA.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Assets\Backup\Standard Assets\Characters\FirstPersonCharacter\FirstPersonCharacterGuidelines.txt" />

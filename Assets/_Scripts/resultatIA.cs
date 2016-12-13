@@ -14,7 +14,6 @@ public class resultatIA : MonoBehaviour
     void Start()
     {
         Winner.text = ("Le Joueur " + control.playerwin + " gagne");
-        //control.isPaused = true;
         ExitButton.onClick.AddListener(() =>
         {
             SceneManager.LoadScene("Menu");
