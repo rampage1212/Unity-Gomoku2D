@@ -13,7 +13,6 @@ public class menurules : MonoBehaviour
     public Sprite croix;
     public Sprite box;
 
-
     void Start()
     {
         Threerules.onClick.AddListener(() =>

@@ -20,6 +20,8 @@ public class resultat : MonoBehaviour
         });
         ReplayButton.onClick.AddListener(() =>
         {
+            control.b_five = false;
+            control.b_three = false;
             SceneManager.LoadScene("Gomoku");
         });
     }
