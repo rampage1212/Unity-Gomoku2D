@@ -31,7 +31,6 @@ public class menurulesIA : MonoBehaviour
         });
         Fiverules.onClick.AddListener(() =>
         {
-            /*
             if (control.b_five == true)
             {
                 Fiverules.image.sprite = box;
@@ -42,7 +41,6 @@ public class menurulesIA : MonoBehaviour
                 Fiverules.image.sprite = croix;
                 control.b_five = true;
             }
-            */
         });
         ExitButton.onClick.AddListener(() =>
         {
